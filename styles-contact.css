@@ -1,0 +1,145 @@
+/*This is my 377 FoCo Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 377 FoCo Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+	background-image: url("images/music-notes-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center; 
+	
+	
+}
+
+.center {
+    width: 700px;
+	padding: 2%;
+    margin: 100px auto;
+ 	background: rgba(188, 172, 190, 0.911); /*this uses opacity of 75% for the background color*/
+	text-align: center;
+	border: 4px white;
+}
+
+   
+#logo {
+    margin-bottom: 16px;
+	border: 3px red;
+	text-align: center;
+}
+
+h1 {
+	font-family: birra, sans-serif;
+	font-size: 5em;
+    margin: 0px auto 10px auto;
+    color: rgb(96, 114, 75);
+}
+
+h2 {
+	font-family: birra, sans-serif;
+	font-size: 2em;
+    line-height: 1.4;
+    color: rgb(63, 63, 63);
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	font-family: yrsa, serif;	
+	font-size: 1.25em;
+    line-height: 1.0;
+    color: rgb(63,63,63);
+}
+    
+ nav{
+	font-family: birra, sans-serif;
+	font-size: 1.3em;
+	width: 505px; /* This is the width of the nav element */
+	margin: 0 auto; /* This centers the entire nav element inside
+	the center div */
+	border: solid pink;
+	border-width: 3px 0; /* This puts a 3 pixel border on top and bottom of the
+	nav element, the zero eliminates the left and right sides of the border */
+	text-align: center;
+	margin-top: 2em; /* This adds a bit of space above the nav element */
+}
+nav li{
+	display: inline; /* This allows
+	the block level elements to
+	display next to one another */
+}
+nav a{
+	display: inline-block;
+	padding: 10px; /* This adds space
+	around each of the links */
+}
+a{
+	color: rgb(96, 114, 75);
+	text-decoration: none; /* This
+	removes the underline */
+	font-weight: bold;
+}
+a:hover{
+	color: black;
+	background: pink; /* This is the
+	pink hover effect -- you’ll want to
+	change this! */
+}   
+
